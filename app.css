@@ -43,6 +43,10 @@ body {
     word-break: break-word;
 }
 
+#output a {
+    color: var(--accent);
+}
+
 .muted {
     color: var(--subtle);
 }

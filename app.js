@@ -116,6 +116,90 @@ const projects = [
         name: "Light Core",
         description: "Le coeur d'un micro-framework en PHP.",
         link: "https://github.com/marc-mosca/LightCore",
+    },
+    {
+        id: "swifty-companion",
+        name: "Swifty Companion",
+        description: "Application iOS pour les étudiants de l'école 42.",
+        link: "https://github.com/marc-mosca/swifty-companion",
+    },
+    {
+        id: "transcendence",
+        name: "Transcendence",
+        description: "Développement d'un jeu Pong multiplayer en ligne.",
+        link: "https://github.com/marc-mosca/transcendence",
+    },
+    {
+        id: "containers",
+        name: "Containers",
+        description: "Réimplémentation des containers (Vector, Stack, Map) de la librairie standard C++.",
+        link: "https://github.com/marc-mosca/containers",
+    },
+    {
+        id: "irc",
+        name: "IRC",
+        description: "Développement d'un serveur IRC en C++.",
+        link: "https://github.com/marc-mosca/irc",
+    },
+    {
+        id: "inception",
+        name: "Inception",
+        description: "Découverte et mise en pratique des notions de Docker.",
+        link: "https://github.com/marc-mosca/inception",
+    },
+    {
+        id: "cub3d",
+        name: "Cub3D",
+        description: "Développement d'un jeu en C en utilisant le raytracing.",
+        link: "https://github.com/marc-mosca/cub3d",
+    },
+    {
+        id: "minishell",
+        name: "Minishell",
+        description: "Développement d'un micro shell en C.",
+        link: "https://github.com/marc-mosca/minishell",
+    },
+    {
+        id: "philosophers",
+        name: "Philosophers",
+        description: "Découverte des threads et des mutex via un problème philosophique en C.",
+        link: "https://github.com/marc-mosca/philosophers",
+    },
+    {
+        id: "pipex",
+        name: "Pipex",
+        description: "Découverte des pipes en C.",
+        link: "https://github.com/marc-mosca/pipex",
+    },
+    {
+        id: "so-long",
+        name: "So-long",
+        description: "Développement d'un jeu simple en 2D.",
+        link: "https://github.com/marc-mosca/so-long",
+    },
+    {
+        id: "push-swap",
+        name: "Push Swap",
+        description: "Découverte des notions d'algorithmie et de performance.",
+        link: "https://github.com/marc-mosca/push-swap",
+    },
+    {
+        id: "get-next-line",
+        name: "Get Next Line",
+        description: "Développement d'une fonction permettant de lire un fichier ligne par ligne.",
+        link: "https://github.com/marc-mosca/get-next-line",
+    },
+    {
+        id: "printf",
+        name: "Printf",
+        description: "Réimplémentation de la fonction printf en C.",
+        link: "https://github.com/marc-mosca/printf",
+    },
+    {
+        id: "libft",
+        name: "Libft",
+        description: "Réimplémentation des fonctions standard C.",
+        link: "https://github.com/marc-mosca/Libft",
     }
 ];
 
