@@ -1,0 +1,81 @@
+/* Generic Styles */
+
+:root {
+    --background: #1a1b26;
+    --text: #9aa5ce;
+    --accent: #7aa2f7;
+    --green: #98c379;
+    --red: #e06c75;
+    --yellow: #e5c07b;
+    --subtle: #9aa0a6;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+    font-family: cursor, monospace;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 100px;
+}
+
+#output {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.muted {
+    color: var(--subtle);
+}
+
+.success {
+    color: var(--green);
+}
+
+.error {
+    color: var(--red);
+}
+
+.warn {
+    color: var(--yellow);
+}
+
+.input-row {
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prompt {
+    color: var(--accent);
+    margin-right: 8px;
+    user-select: none;
+}
+
+#cmd {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text);
+    flex: 1;
+    font: inherit;
+}

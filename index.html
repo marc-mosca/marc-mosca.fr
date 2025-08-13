@@ -4,9 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Marc MOSCA | Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="app.css">
     </head>
     <body>
-        <script type="text/javascript" src="javascript/app.js"></script>
+
+        <div id="output"></div>
+
+        <form class="input-row" id="input-form" autocomplete="off">
+            <label for="cmd" class="prompt" id="prompt">guest@marc-mosca.fr:~$</label>
+            <input id="cmd" type="text" spellcheck="false" autofocus />
+        </form>
+
+        <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
