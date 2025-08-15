@@ -95,110 +95,110 @@ const state = {
 const projects = [
     {
         id: "marc-mosca.fr",
-        name: "marc-mosca.fr",
-        description: "Mon portoflio personnel sous forme de terminal web.",
+        name: "marc-mosca.fr\t\t",
+        description: "Développement de mon web terminal portfolio.",
         link: "https://github.com/marc-mosca/marc-mosca.fr",
     },
     {
         id: "libasm",
-        name: "Libasm",
-        description: "Réimplémentation des fonctions standard C en assembleur x86-64.",
+        name: "libasm\t\t",
+        description: "Initiation au language assembleur en codant des fonctions de la librairie standard.",
         link: "https://github.com/marc-mosca/Libasm",
     },
     {
-        id: "linear-regression",
-        name: "Linear Regression",
-        description: "Introduction au machine learning.",
+        id: "ft_linear_regression",
+        name: "ft_linear_regression\t",
+        description: "Initiation au machine learning grâce à la regression lineaire avec un algorithme du gradient.",
         link: "https://github.com/marc-mosca/linear-regression",
     },
     {
         id: "lightcore",
-        name: "Light Core",
-        description: "Le coeur d'un micro-framework en PHP.",
+        name: "lightcore\t\t",
+        description: "Développement d'un framework MVC permettant d'apprendre le fonctionnement d'un framework et de ses outils.",
         link: "https://github.com/marc-mosca/LightCore",
     },
     {
-        id: "swifty-companion",
-        name: "Swifty Companion",
-        description: "Application iOS pour les étudiants de l'école 42.",
+        id: "swifty_companion",
+        name: "swifty_companion\t",
+        description: "Initiation au développement mobile grâce à une application pour les étudiants de l'école 42.",
         link: "https://github.com/marc-mosca/swifty-companion",
     },
     {
-        id: "transcendence",
-        name: "Transcendence",
-        description: "Développement d'un jeu Pong multiplayer en ligne.",
+        id: "ft_transcendence",
+        name: "ft_transcendence\t",
+        description: "Développement d'un site web permettant de jouer au Pong et de communiquer en temps réel avec d'autres utilisateur.",
         link: "https://github.com/marc-mosca/transcendence",
     },
     {
-        id: "containers",
-        name: "Containers",
-        description: "Réimplémentation des containers (Vector, Stack, Map) de la librairie standard C++.",
+        id: "ft_containers",
+        name: "ft_containers\t\t",
+        description: "Découverte et développement de différent conteneur de la librairie standard C++.",
         link: "https://github.com/marc-mosca/containers",
     },
     {
-        id: "irc",
-        name: "IRC",
-        description: "Développement d'un serveur IRC en C++.",
+        id: "ft_irc",
+        name: "ft_irc\t\t",
+        description: "Développement d'un serveur IRC en suivant les RFC standards d'Internet.",
         link: "https://github.com/marc-mosca/irc",
     },
     {
         id: "inception",
-        name: "Inception",
-        description: "Découverte et mise en pratique des notions de Docker.",
+        name: "inception\t\t",
+        description: "Apprentissage de docker et des bases de l'administration système.",
         link: "https://github.com/marc-mosca/inception",
     },
     {
         id: "cub3d",
-        name: "Cub3D",
-        description: "Développement d'un jeu en C en utilisant le raytracing.",
+        name: "cub3d\t\t\t",
+        description: "Découverte du ray-casting grâce à un projet inspiré du premier FPS : Wolfenstein 3D.",
         link: "https://github.com/marc-mosca/cub3d",
     },
     {
         id: "minishell",
-        name: "Minishell",
-        description: "Développement d'un micro shell en C.",
+        name: "minishell\t\t",
+        description: "Développement d'un simple shell pour découvrir les processus et approfondir les descripteur de fichier.",
         link: "https://github.com/marc-mosca/minishell",
     },
     {
         id: "philosophers",
-        name: "Philosophers",
-        description: "Découverte des threads et des mutex via un problème philosophique en C.",
+        name: "philosophers\t\t",
+        description: "Découverte des bases des threads et des mutex.",
         link: "https://github.com/marc-mosca/philosophers",
     },
     {
         id: "pipex",
-        name: "Pipex",
-        description: "Découverte des pipes en C.",
+        name: "pipex\t\t\t",
+        description: "Découverte et programmation d'un mécanisme UNIX : les redirections et les pipes.",
         link: "https://github.com/marc-mosca/pipex",
     },
     {
-        id: "so-long",
-        name: "So-long",
-        description: "Développement d'un jeu simple en 2D.",
+        id: "so_long",
+        name: "so_long\t\t",
+        description: "Développement d'un jeu 2D conçu pour apprendre à manipuler des textures, des sprites et du gameplay.",
         link: "https://github.com/marc-mosca/so-long",
     },
     {
-        id: "push-swap",
-        name: "Push Swap",
-        description: "Découverte des notions d'algorithmie et de performance.",
+        id: "push_swap",
+        name: "push_swap\t\t",
+        description: "Implémentation d'algorithmes permettant de trier des données dans une pile le plus efficacement possible.",
         link: "https://github.com/marc-mosca/push-swap",
     },
     {
-        id: "get-next-line",
-        name: "Get Next Line",
-        description: "Développement d'une fonction permettant de lire un fichier ligne par ligne.",
+        id: "get_next_line",
+        name: "get_next_line\t\t",
+        description: "Développement d'une fonction permettant de lire une ligne depuis un descripteur de fichier.",
         link: "https://github.com/marc-mosca/get-next-line",
     },
     {
         id: "printf",
-        name: "Printf",
-        description: "Réimplémentation de la fonction printf en C.",
+        name: "ft_printf\t\t",
+        description: "Développement de la fonction printf en C pour comprendre la notion d'argument à taille variable.",
         link: "https://github.com/marc-mosca/printf",
     },
     {
         id: "libft",
-        name: "Libft",
-        description: "Réimplémentation des fonctions standard C.",
+        name: "libft\t\t\t",
+        description: "Développement de certaines fonctions de la librairie standard C.",
         link: "https://github.com/marc-mosca/Libft",
     }
 ];
@@ -206,11 +206,11 @@ const projects = [
 const commands = {
     help() {
         const list = Object.keys(commands).sort();
-        const items = list.map(command => `• <span class="badge">${command}</span><br/>`).join("");
+        const items = list.map(command => `• <span>${command}</span><br/>`).join("");
         print(`Commandes disponibles:\n${items}`);
-        print(`\nAstuces: <span class="kbd">Tab</span> auto-complétion • <span class="kbd">↑/↓</span> historique • <span class="kbd">Ctrl</span>+<span class="kbd">L</span> effacer`,'muted');
+        print(`\nAstuces: <span>Tab</span> auto-complétion • <span>↑/↓</span> historique • <span>Ctrl</span>+<span>L</span> effacer`,'muted');
     },
-    whoami() {
+    about() {
         print("Bonjour, je suis Marc MOSCA - étudiant en développement informatique à 42 Lyon Auvergne-Rhône-Alpes.")
     },
     date() {
@@ -230,7 +230,7 @@ const commands = {
     projects() {
         print("Projects:\n");
         projects.forEach(p => {
-            print(`• <strong>${htmlspecialchars(p.name)}</strong> — ${htmlspecialchars(p.description)}\n   id: <span class="badge">${p.id}</span>\n   ouvrir: open ${p.id}`);
+            print(`• <strong>${htmlspecialchars(p.name)}</strong>\t${htmlspecialchars(p.description)}`);
         });
     },
     open(arguments) {
@@ -241,7 +241,7 @@ const commands = {
         }
         if (project && project.link && project.link !== "") {
             window.open(project.link, "_blank", "noopener");
-            print(htmlspecialchars(`Ouverture de ${project.name}…`), "success");
+            print(htmlspecialchars(`Ouverture de ${project.id}…`), "success");
         }
         else {
             print(htmlspecialchars(`Aucun project reconnu : ${id}`), "error");
