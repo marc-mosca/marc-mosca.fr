@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "shell.css";
+
+/* Generic Styles */
+
+:root {
+    --background: #1a1b26;
+    --text: #9aa5ce;
+    --accent: #7aa2f7;
+    --green: #98c379;
+    --red: #e06c75;
+    --yellow: #e5c07b;
+    --subtle: #9aa0a6;
+    --shadow: rgba(255, 255, 255, 0.1);
+}
+
+html,
+body {
+    height: 100%;
+    background: var(--background);
+    color: var(--text);
+    font-family: cursor, monospace;
+    line-height: 1.6;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 100px;
+}
