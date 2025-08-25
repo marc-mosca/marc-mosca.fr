@@ -104,7 +104,7 @@ const projects = [
         link: "https://github.com/marc-mosca/get-next-line",
     },
     {
-        id: "printf",
+        id: "ft_printf",
         name: "ft_printf\t\t",
         description: "Développement de la fonction printf en C pour comprendre la notion d'argument à taille variable.",
         link: "https://github.com/marc-mosca/printf",
