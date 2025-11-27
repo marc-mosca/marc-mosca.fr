@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "shell.css";
 
 :root {
   --background: #1a1b26;
